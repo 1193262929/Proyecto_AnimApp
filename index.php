@@ -7,13 +7,13 @@
     <title>Inicio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="css/style.css">
-</head>
+    <link rel="stylesheet" href="/AnimApp/css/style.css">
+    </head>
 
 <body>
     <div class="page-wrapper">
 
-        <?php require('./layout/cabecera.php'); ?>
+        <?php require('./views/layout/cabecera.php'); ?>
 
         <main class="main">
 
@@ -35,7 +35,7 @@
                     <div class="row row-servicio d-flex justify-content-between flex-wrap gap-3">
 
                         <div class="card-servicio bg-white rounded shadow p-0">
-                            <img class="img-fluid rounded-top" src="./images/veterinaria1.jpg" alt="">
+                            <img class="img-fluid rounded-top" src="/AnimApp/images/veterinaria1.jpg" alt="">
                             <h3 class="px-3 pt-3">Veterinaria</h3>
                             <p class="px-3">Nuestros mejores servicios en veterinarias</p>
                             <div class="d-flex justify-content-center pb-3">
@@ -44,7 +44,7 @@
                         </div>
 
                         <div class="card-servicio bg-white rounded shadow p-0">
-                            <img class="img-fluid rounded-top" src="./images/paseador.jpg" alt="">
+                            <img class="img-fluid rounded-top" src="/AnimApp/images/paseador.jpg" alt="">
                             <h3 class="px-3 pt-3">Paseadores</h3>
                             <p class="px-3">Contacta con la mejor la comunidad de paseadores.</p>
                             <div class="d-flex justify-content-center pb-3">
@@ -53,7 +53,7 @@
                         </div>
 
                         <div class="card-servicio bg-white rounded shadow p-0">
-                            <img class="img-fluid rounded-top" src="./images/perroComida.jpg" alt="">
+                            <img class="img-fluid rounded-top" src="/AnimApp/images/perroComida.jpg" alt="">
                             <h3 class="px-3 pt-3">Tiendas</h3>
                             <p class="px-3">Encuentra todo lo que necesita tu mascota.</p>
                             <div class="d-flex justify-content-center pb-3">
@@ -62,7 +62,7 @@
                         </div>
 
                         <div class="card-servicio bg-white rounded shadow p-0">
-                            <img class="img-fluid rounded-top" src="./images/spa.jpg" alt="">
+                            <img class="img-fluid rounded-top" src="/AnimApp/images/spa.jpg" alt="">
                             <h3 class="px-3 pt-3">Spa</h3>
                             <p class="px-3">Dale un gran regalo a tu mascota hazla muy feliz.</p>
                             <div class="d-flex justify-content-center pb-3">
@@ -90,13 +90,13 @@
                 <div class="container text-center">
                     <div class="row d-flex justify-content-between">
                         <div class="card-apoyanos shadow">
-                            <img class="imagen-apoyanos img-fluid" src="images/veterinaria2.jpg" alt="">
+                            <img class="imagen-apoyanos img-fluid" src="/AnimApp/images/veterinaria2.jpg" alt="">
                         </div>
                         <div class="card-apoyanos shadow">
-                            <img class="imagen-apoyanos img-fluid" src="images/ayuarPerroEncerrado.jpg" alt="">
+                            <img class="imagen-apoyanos img-fluid" src="/AnimApp/images/ayuarPerroEncerrado.png" alt="">
                         </div>
                         <div class="card-apoyanos shadow">
-                            <img class="imagen-apoyanos img-fluid" src="images/ayudarGato.jpg" alt="">
+                            <img class="imagen-apoyanos img-fluid" src="/AnimApp/images/ayudarGato.png" alt="">
                         </div>
                     </div>
                     <h3 class="text-success pt-3 pb-2 fs-2">Sé parte del cambio, ayuda a una vida peluda</h3>
@@ -128,9 +128,10 @@
 
         </main>
 
-        <?php require('./layout/footer.php'); ?>
+        <?php require('./views/layout/footer.php'); ?>
 
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

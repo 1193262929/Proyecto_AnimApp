@@ -32,7 +32,7 @@ footer .row{
 
 /* Lista de navegacion del encabezado */
 .lista li:hover{
-    background-color: white;
+    background-color: #000;
     border-radius: 3px;
     cursor: pointer;
 }
@@ -86,7 +86,8 @@ footer .row{
 /* Container adoptar */
 .container-adoptar {
     height: 600px;
-    background-image: url('../images/adoptarPerros.jpg');
+    /* background-image: url('../images/adoptarPerros.jpg'); */
+    background-image: url('/AnimApp/images/adoptarPerros.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

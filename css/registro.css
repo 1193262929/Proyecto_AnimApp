@@ -1,3 +1,3 @@
-.container-formulario-registro {
+.container-formulario-registro, .main-login {
     background: linear-gradient(90deg,rgba(18, 78, 42, 1) 10%, rgba(42, 42, 42, 1) 100%);
 }
