@@ -21,7 +21,7 @@
             </div>
 
             <div class="col-3 d-flex align-items-center">
-                <img class="img-fluid w-25 h-40 rounded-circle" src="/AnimApp/images/Logo_Animapp.jpg" alt="">
+                <img class="img-fluid w-25 h-40 rounded-circle" src="/AnimApp/assets/images/Logo_Animapp.jpg" alt="">
             </div>
 
         </div>

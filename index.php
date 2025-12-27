@@ -4,11 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>ANIMAPP | INICIO</title>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="/AnimApp/css/style.css">
-    </head>
+    <link rel="stylesheet" href="/AnimApp/assets/css/style.css">
+</head>
 
 <body>
     <div class="page-wrapper">
@@ -19,6 +21,7 @@
 
             <!-- Container Imagen principal -->
             <div class="container-imagen container-fluid">
+
                 <div class="row h-100 d-flex justify-content-center align-items-end">
                     <div class="contenido h-25 text-white w-50 bg-dark rounded mb-4 text-center pt-3">
                         <h1>Adopta con amor. Vive con proposito</h1>
@@ -34,39 +37,39 @@
 
                     <div class="row row-servicio d-flex justify-content-between flex-wrap gap-3">
 
-                        <div class="card-servicio bg-white rounded shadow p-0">
-                            <img class="img-fluid rounded-top" src="/AnimApp/images/veterinaria1.jpg" alt="">
-                            <h3 class="px-3 pt-3">Veterinaria</h3>
-                            <p class="px-3">Nuestros mejores servicios en veterinarias</p>
-                            <div class="d-flex justify-content-center pb-3">
-                                <button class="btn btn-success px-4">Buscar</button>
+                        <!-- <div class="card-servicio bg-white rounded shadow p-0">
+                            <img class="img-fluid rounded-top" src="/AnimApp/assets/images/spa.jpg" alt="">
+                            <h3 class="px-3 pt-3"></h3>
+                            <p class="px-3">Dale un gran regalo a tu mascota hazla muy feliz.</p>
+                            <div class="text-center pb-3">
+                                <button class="btn btn-success w-50 px-4">Buscar</button>
                             </div>
-                        </div>
+                        </div> -->
 
-                        <div class="card-servicio bg-white rounded shadow p-0">
-                            <img class="img-fluid rounded-top" src="/AnimApp/images/paseador.jpg" alt="">
-                            <h3 class="px-3 pt-3">Paseadores</h3>
-                            <p class="px-3">Contacta con la mejor la comunidad de paseadores.</p>
-                            <div class="d-flex justify-content-center pb-3">
-                                <button class="btn btn-success px-4">Buscar</button>
-                            </div>
-                        </div>
-
-                        <div class="card-servicio bg-white rounded shadow p-0">
-                            <img class="img-fluid rounded-top" src="/AnimApp/images/perroComida.jpg" alt="">
+                        <div class="card-servicio col bg-white rounded shadow p-0">
+                            <img class="img-fluid rounded-top" src="/AnimApp/assets/images/perroComida.jpg" alt="">
                             <h3 class="px-3 pt-3">Tiendas</h3>
                             <p class="px-3">Encuentra todo lo que necesita tu mascota.</p>
-                            <div class="d-flex justify-content-center pb-3">
-                                <button class="btn btn-success px-4">Buscar</button>
+                            <div class="text-center pt-5">
+                                <a class="btn btn-success w-50 px-4" href="views/home/servicios.php">Más Información <i class="bi bi-hand-thumbs-up"></i></a>
                             </div>
                         </div>
 
-                        <div class="card-servicio bg-white rounded shadow p-0">
-                            <img class="img-fluid rounded-top" src="/AnimApp/images/spa.jpg" alt="">
-                            <h3 class="px-3 pt-3">Spa</h3>
-                            <p class="px-3">Dale un gran regalo a tu mascota hazla muy feliz.</p>
-                            <div class="d-flex justify-content-center pb-3">
-                                <button class="btn btn-success px-4">Buscar</button>
+                        <div class="card-servicio col bg-white rounded shadow p-0">
+                            <img class="img-fluid rounded-top" src="/AnimApp/assets/images/paseador.jpg" alt="">
+                            <h3 class="px-3 pt-3">Paseadores</h3>
+                            <p class="px-3">Contacta con la mejor la comunidad de paseadores.</p>
+                            <div class="text-center pt-5">
+                                <a class="btn btn-success w-50 px-4" href="views/home/servicios.php">Más Información <i class="bi bi-hand-thumbs-up"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="card-servicio col bg-white rounded shadow p-0">
+                            <img class="img-fluid rounded-top" src="/AnimApp/assets/images/veterinaria1.jpg" alt="">
+                            <h3 class="px-3 pt-3">Veterinaria</h3>
+                            <p class="px-3">Nuestros mejores servicios en veterinarias</p>
+                            <div class="text-center pt-5">
+                                <a class="btn btn-success w-50 px-4" href="views/home/servicios.php">Más Información <i class="bi bi-hand-thumbs-up"></i></a>
                             </div>
                         </div>
 
@@ -80,7 +83,7 @@
                     <div class="adoptar-cubo bg-success d-flex flex-column text-white justify-content-center px-5 text-center">
                         <h3 class="fw-bold fs-2">Adopta amor, cambia dos vidas</h3>
                         <p class="py-4">Cada mascota merece un hogar lleno de cariño. En animapp puedes encontrar a tu compañero ideal y darle una segunda oportunidad. Explora perfiles, conoce sus historias y da el primer paso hacia una vida compartida.</p>
-                        <button class="btn-adoptar btn btn-dark">Adoptar</button>
+                        <a class="btn-adoptar btn btn-dark" href="views/home/adopciones.php">Más Información <i class="bi bi-hand-thumbs-up"></i></a>
                     </div>
                 </div>
             </div>
@@ -90,13 +93,13 @@
                 <div class="container text-center">
                     <div class="row d-flex justify-content-between">
                         <div class="card-apoyanos shadow">
-                            <img class="imagen-apoyanos img-fluid" src="/AnimApp/images/veterinaria2.jpg" alt="">
+                            <img class="imagen-apoyanos img-fluid" src="/AnimApp/assets/images/veterinaria2.jpg" alt="">
                         </div>
                         <div class="card-apoyanos shadow">
-                            <img class="imagen-apoyanos img-fluid" src="/AnimApp/images/ayuarPerroEncerrado.png" alt="">
+                            <img class="imagen-apoyanos img-fluid" src="/AnimApp/assets/images/ayuarPerroEncerrado.png" alt="">
                         </div>
                         <div class="card-apoyanos shadow">
-                            <img class="imagen-apoyanos img-fluid" src="/AnimApp/images/ayudarGato.png" alt="">
+                            <img class="imagen-apoyanos img-fluid" src="/AnimApp/assets/images/ayudarGato.png" alt="">
                         </div>
                     </div>
                     <h3 class="text-success pt-3 pb-2 fs-2">Sé parte del cambio, ayuda a una vida peluda</h3>

@@ -1,0 +1,142 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Asegura que no haya espacio entre header y los bordes */
+header, nav {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.page-wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1; /* ocupa todo el espacio disponible */
+}
+
+footer {
+    margin: 0 !important;
+}
+
+footer .container-fluid,
+footer .row{
+    margin: 0 !important;
+    padding: 0 ;
+}
+
+/* Lista de navegacion del encabezado */
+.lista li:hover{
+    background-color: #000;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* Enlaces del footer */
+.enlacesFooter:hover {
+    color: green !important;
+    text-decoration: underline !important;
+}
+
+/* Pagina de inicio "index.php" */
+.container-imagen {
+    height: 550px;
+    background-image: url('../images/imagen-inicio.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.contenido {
+    opacity: .7;
+}
+
+/* Container servicios */
+.container-servicios {
+    height: 650px;
+}
+
+.row-servicio {
+    height: 450px;
+}
+
+.card-servicio {
+  width: 24%; /* 4 tarjetas en una fila sin salto */
+  height: 100%;
+  min-height: 70%; /* Altura mínima */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-servicio img {
+    height: 50%; /* controla la altura de la imagen */
+    object-fit: cover;
+    width: 100%;
+}
+
+.card-registro {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-servicio:hover,
+.card-registro:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+
+/* Container adoptar */
+.container-adoptar {
+    height: 600px;
+    background-image: url('/AnimApp/assets/images/adoptarPerros.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.adoptar-cubo {
+    width: 550px;
+    margin-right: 150px;
+}
+
+.btn-adoptar {
+    padding: 10px;
+    width: 50%;
+    margin: 0px auto
+}
+
+/* Container apoyanos */
+.container-apoyanos {
+    height: 650px;
+}
+
+.card-apoyanos {
+    width: 30%;
+    height: 400px;
+    padding: 0;
+}
+
+.imagen-apoyanos {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+/* Container contacto */
+.container-contacto {
+    height: 600px;
+    background-image: url('/AnimApp/assets/images/contacto.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.contacto-cubo {
+    width: 550px;
+
+    margin-left: 100px;
+}

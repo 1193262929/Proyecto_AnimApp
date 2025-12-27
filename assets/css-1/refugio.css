@@ -1,0 +1,20 @@
+.container-refugio {
+    background-image: url('../images/refugioFondo.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.main-refugio {
+    background-color: rgba(0, 0, 0, 0.802);
+   
+}
+
+.row-refugio {
+    background-color: rgba(0, 0, 0, 0.374) !important;
+}
+
+.container-carousel {
+    height: 400px !important;
+}
